@@ -1,5 +1,5 @@
 #!/bin/bash
+#whenever you pass argument to bash script they
+#are stored into a variable
 
-echo "Enter names : "
-read name1 name2 name3
-echo "Entered names: $name1, $name2, $name3"
+echo $1 $2 $3 > echo $1 $2 $3
