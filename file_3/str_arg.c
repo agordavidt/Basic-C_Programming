@@ -4,8 +4,14 @@
  *
  * Return: 0
  */
-int min(void){
-	printf("A program to demonstrate arguments to main\n");
+int min(int argc, char *agvr[]){
+
+	char *msg = "A program to demonstrate arguments to main";
+	
+	printf("message: %s\n", msg);
+
+	printf("Number of argumnets with argc: %d\n", argc);
+	printf("arguments vector: %s\n", agvr);
 
 	return (0);
 }
